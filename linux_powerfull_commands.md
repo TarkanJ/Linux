@@ -1,23 +1,41 @@
 ** ALIAS => zadat v konsoli toto: "alias k=kubectl" **
 a prida alias do souboru ~/.bashrc
 
-# Hezky a prehledne velikosti adresaru
+
+** Hezky a prehledne velikosti adresaru **
+```
 ncdu
+```
 
-# Prehledne a v tabulce velikosti souboru a adresaru
+
+** Prehledne a v tabulce velikosti souboru a adresaru **
+```
 duf
+```
 
-# Prikaz "fdfind" najde umistneni vsech Dockerfile v systemu!
+
+** Prikaz "fdfind" najde umistneni vsech Dockerfile v systemu! **
+```
 fdfind '^Dockerfile$'
+```
 
-# parametr -H means "Hidden files"
+
+** parametr -H means "Hidden files" **
+```
 fdfind -H '\.env'
+```
 
-# I’m thankful for the Linux fuzzy finder tool because it superpowers the command line by making it fast to find whatever I’m looking for
+
+*** I’m thankful for the Linux fuzzy finder tool because it superpowers the command line by making it fast to find whatever I’m looking for ***
+```
 fzf
+```
 
-# EXA showing ICONS!
+
+** EXA showing ICONS! **
+```
 exa --icons /home/jojovaio/Plocha/
+```
 
 
 ** Diskové Nástroje - Správa, Partition, Oddíly **
