@@ -1,3 +1,3 @@
 # Linux
 
-Handy tips & trics for Linux
+Handy tips & tricks for Linux
