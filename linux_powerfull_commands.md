@@ -174,6 +174,7 @@ Výpis logu relací
 
 - last
 
+
 ** BASH Terminál **
 -------------------
 - Nastaveni "BASH"e
