@@ -1,0 +1,11 @@
+# This lines add at the bottom in ~/.bashrc
+
+# Source global definitions
+# MARTINO fancy color BASH ;o)
+# @2026
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+PS1='\[\033[1;96m\]\u\[\033[1;34m\]@\[\033[1;35m\]\h\[\033[1;34m\]:\[\033[1;36m\]\w\[\033[1;32m\]\$\[\033[0m\] '
+# PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
+export PATH=$HOME/local/bin:$PATH
