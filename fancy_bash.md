@@ -26,9 +26,15 @@ export PATH=$HOME/local/bin:$PATH
 ```
 
 • Name (\u - cyan/light cyan): \033[1;96m (light cyan/cyan)
+
 • At sign (@ - purple-blue): \033[1;34m (blue) or purple \033[1;35m (choose according to your preference)
+
 • Host/computer (\h - purple-blue): \033[1;95m (bright purple/magenta)
+
 • Colon (: - blue): \033[1;34m (blue)
+
 • Path (\w - light cyan): \033[1;36m (cyan)
+
 • Dollar sign (\$ - bright red): \033[1;91m (bright/vivid red)
+
 • Reset (\033[0m): Returns the color to the default state.
