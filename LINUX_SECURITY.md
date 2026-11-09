@@ -60,7 +60,7 @@ využívá ss moderní mechanismus Netlink API (konkrétně sock_diag).
 - můžete také použít příkaz iftop pro přehled o využití šířky pásma v reálném čase:
 
 ```
-ss -tn state ESTABLISHED – Vypíše pouze aktivní a navázaná TCP spojení s číselnými adresami.
+ss -tn state ESTABLISHED.
 ```
 
 - Vypíše pouze aktivní a navázaná TCP spojení s číselnými adresami.
