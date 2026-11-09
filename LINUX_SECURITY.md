@@ -1,4 +1,5 @@
-** Jak checknout jestli je Linux Server is Hacked
+** Jak checknout jestli je Linux Server is Hacked **
+----------------------------------------------------
 
 ```
 lastlog 
