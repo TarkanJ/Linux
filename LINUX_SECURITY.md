@@ -36,8 +36,10 @@ sudo lsof -i -P -n
 - tento příkaz vypíše všechny otevřené porty a s nimi spojené procesy. Neznámé nebo otevřené porty mohou být známkou neoprávněného přístupu.
 
 ```
-ss -tulnp (deprecated netstat -tulnp)
+ss -tulnp
 ```
+
+* (deprecated netstat -tulnp)
 
 - Dříve se všude používal příkaz netstat, ale ten je dnes nahrazen mnohem rychlejším ss. Tento nástroj ti řekne, jaké porty jsou na tvém serveru aktuálně otevřené a jaké aplikace na nich běží.
 - Příkaz ss přistupuje k síťovým informacím přímo přes rozhraní jádra (kernelu).
@@ -60,7 +62,7 @@ využívá ss moderní mechanismus Netlink API (konkrétně sock_diag).
 - můžete také použít příkaz iftop pro přehled o využití šířky pásma v reálném čase:
 
 ```
-ss -tn state ESTABLISHED.
+ss -tn state ESTABLISHED
 ```
 
 - Vypíše pouze aktivní a navázaná TCP spojení s číselnými adresami.
