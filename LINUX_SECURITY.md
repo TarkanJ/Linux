@@ -26,7 +26,7 @@ top (htop - better graphical look! <3)
 ps aux
 ```
 
-- kontrola všech běžících procesů, včetně cesty k procesum
+- kontrola všech běžících procesů, vypsání jména a plné cesty
 
 
 ```
