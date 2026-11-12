@@ -43,8 +43,8 @@ ss -tulnp
 
 - Dříve se všude používal příkaz netstat, ale ten je dnes nahrazen mnohem rychlejším ss. Tento nástroj ti řekne, jaké porty jsou na tvém serveru aktuálně otevřené a jaké aplikace na nich běží.
 - Příkaz ss přistupuje k síťovým informacím přímo přes rozhraní jádra (kernelu).
-- Na rozdíl od starého příkazu netstat, který musel složitě a pomalu číst a parsovat textové soubory v adresáři /proc/net/,
-využívá ss moderní mechanismus Netlink API (konkrétně sock_diag).
+- Na rozdíl od starého příkazu netstat, který musel složitě a pomalu číst a parsovat textové soubory v adresáři /proc/net/
+- využívá ss moderní mechanismus Netlink API (konkrétně sock_diag).
 
 - Naprostý základ každého linuxáka je kombinace přepínačů -tulnp:
 
