@@ -598,6 +598,20 @@ od 8:00 - 10:00 do 16:00 - 18:00 od Pondělí do Pátku (1 - 5)
 - vypíše obsah souboru na obrazovku
 
 
+** AWK - výběr sloupců **
+-------------------------
+# Uloží vše, co je za textem "load average:"
+FOO=$(uptime | awk -F'load average: ' '{print $2}')
+echo "$FOO"
+# Výstup např.: 0.15, 0.08, 0.02
+
+Pokud byste chtěli pouze první číslo (zátěž za poslední 1 minutu):
+
+FOO=$(uptime | awk -F'load average: ' '{print $2}' | cut -d',' -f1)
+echo "$FOO"
+# Výstup např.: 0.15
+
+
 ** Less - command **
 --------------------
 
